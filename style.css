@@ -1,0 +1,36 @@
+body{
+    scroll-behavior: smooth;
+}
+
+.service-item:hover{
+    background-color: #fc3c50 !important;
+    transition: .4s;
+    color: white !important;
+    transform: scale(1.07);
+    
+}
+
+.service-item:hover p{
+    color: #e0e0e0 !important;
+    transition: .4s;
+}
+
+.service-item:hover .icon{
+    color: white !important;
+    transition: .4s;
+}
+
+.service-item:hover .fab{
+    color: white !important;
+    transition: .4s;
+}
+}
+
+ul li a:hover{
+    color: #2ac4ea !important;
+}
+
+.fab, .far {
+    font-weight: 400;
+    color: #dc3545;
+}
